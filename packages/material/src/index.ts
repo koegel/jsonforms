@@ -36,8 +36,10 @@ import {
   materialInputControlTester,
   MaterialNativeControl,
   materialNativeControlTester,
+  MaterialRadioGroupControl,
+  materialRadioGroupControlTester,
   MaterialSliderControl,
-  materialSliderControlTester
+  materialSliderControlTester,
 } from './controls';
 import {
   MaterialArrayLayout,
@@ -85,6 +87,7 @@ export const materialRenderers = [
   { tester: materialDateTimeControlTester, renderer: MaterialDateTimeControl },
   { tester: materialDateControlTester, renderer: MaterialDateControl },
   { tester: materialSliderControlTester, renderer: MaterialSliderControl},
+  { tester: materialRadioGroupControlTester, renderer: MaterialRadioGroupControl },
   // layouts
   { tester: materialGroupTester, renderer: MaterialGroupLayout },
   { tester: materialHorizontalLayoutTester, renderer: MaterialHorizontalLayout },

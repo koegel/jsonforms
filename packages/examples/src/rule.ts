@@ -41,7 +41,7 @@ export const schema = {
 };
 
 export const uischema = {
-  type: 'HorizontalLayout',
+  type: 'VerticalLayout',
   elements: [
     {
       type: 'Control',
